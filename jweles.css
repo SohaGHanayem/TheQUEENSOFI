@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.main {
+  text-align: center;
+  padding: 50px;
+  background-color: #a09e9e;
+}
+
+h1 {
+  font-size: 35px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(238, 221, 123);
+  margin-bottom: 30px;
+}
+
+.main-image {
+  width: 150px;
+  height: 200px;
+  border-radius: 100%;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(5, 5, 5, 0.9);
+  padding: 1px;
+  margin: 10px;
+}
+
+.main-title {
+  margin-top: 20px;
+  color: #333;
+}
+
+.jewels-section {
+  padding: 50px;
+  background-color: #e0e7b6;
+}
+
+.section-title {
+  text-align: center;
+  color: #333;
+  font-size: 28px;
+}
+
+.jewels-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.jewel-card {
+  max-width: 300px;
+  background-color: #f0efbc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 20px;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.jewel-card:hover {
+  transform: scale(1.05);
+}
+
+.jewel-image {
+  width: 100%;
+  height: 200px; /* Set a fixed height for all images */
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.jewel-details {
+  padding: 20px;
+}
+
+.jewel-title {
+  text-align: center;
+  margin: 10px 0;
+  color: #333;
+  font-size: 20px;
+}
+
+.jewel-description {
+  margin-top: 10px;
+  color: #666;
+  font-size: 16px;
+  text-align: justify;
+}
